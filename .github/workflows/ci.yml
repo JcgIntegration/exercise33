@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: _CI_
 
 # Controls when the workflow will run
 on:
@@ -29,5 +29,5 @@ jobs:
       - name: Run markdown lint
         run: |
           npm install remark-cli remark-preset-lint-consistent
-          npx remark . --use remark-preset-lint-consistent --fraill
+          npx remark . --use remark-preset-lint-consistent --frail
 
